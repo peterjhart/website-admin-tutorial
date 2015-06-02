@@ -12,5 +12,9 @@
 !/log/.keep
 /tmp
 
+# Ignore IDEA files
+/site.iml
+.idea/*
+
 # Ignore database config.
 /config/database.yml
