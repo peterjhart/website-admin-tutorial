@@ -12,5 +12,28 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
-//= require_tree .
+// removed turbolinks
+// removed require_tree .
+
+
+//= require angular
+//= require angular-resource
+//= require angular-route
+//= require angular-sanitize
+
+//= require angular-ui
+//= require angular-ui-bootstrap
+//= require angular-ui-bootstrap-tpls
+
+//= require lib/ng-sortable/dist/ng-sortable.js
+
+//= require lib/angular-ui-router/0.2.10/angular-ui-router.js
+//= require angularjs-file-upload
+
+//= require bootstrap
+//= require bootstrap-datepicker/core
+//= require lib/twitter/typeahead/typeahead.js
+
+//= require lib/showdown/showdown.js
+
+//= require underscore
