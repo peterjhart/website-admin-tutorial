@@ -1,4 +1,4 @@
-class PagesAdminController < ApplicationController
+class PagesAdminController < AdminController
 
   def index
     respond_to do |format|
