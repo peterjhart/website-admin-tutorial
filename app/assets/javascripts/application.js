@@ -10,7 +10,6 @@
 //= require angular-route
 //= require angular-sanitize
 
-//= require angular-ui
 //= require angular-ui-bootstrap
 //= require angular-ui-bootstrap-tpls
 
