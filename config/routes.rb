@@ -8,4 +8,8 @@ Rails.application.routes.draw do
 
   end
 
+  get 'admin' => 'admin#index'
+
+  root 'website#index'
+
 end
