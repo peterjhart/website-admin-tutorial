@@ -19,5 +19,5 @@
 
 //= require underscore
 
-//= require website.app.js
-//= require_tree ./website
+//= require admin.app.js
+//= require_tree ./admin
