@@ -1,0 +1,13 @@
+<form name="adminPageEditForm">
+  <div class="form-group">
+    <label for="inputPageTitle">Title</label>
+    <input type="text" class="form-control" id="inputPageTitle" placeholder="Page title" ng-model="page.title">
+  </div>
+  <div class="form-group">
+    <label for="inputPageBody">Body</label>
+    <textarea id="inputPageBody" class="form-control" rows="12" placehoder="Body text" ng-model="page.body"></textarea>
+  </div>
+  <button type="button" class="btn btn-primary" ng-click="save()">Save</button>
+  <button type="button" class="btn btn-info" ng-click="saveAndClose()">Save & Close</button>
+  <a ui-sref="admin.pages.index">Cancel</a>
+</form>

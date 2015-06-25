@@ -1,0 +1,11 @@
+<h1>Pages Admin</h1>
+
+<a ui-sref="admin.pages.new" class="btn btn-primary">Create a Page</a>
+
+<ul>
+  <li ng-repeat="page in pages">
+    <a ui-sref="admin.pages.edit({pageId:page.id})" href="">
+      {{ page.title || 'untitled' }}
+    </a>
+  </li>
+</ul>
